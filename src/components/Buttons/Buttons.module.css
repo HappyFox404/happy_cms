@@ -1,0 +1,17 @@
+.DefBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #303952;
+    color: white;
+    transition: all ease-in-out 0.3s;
+
+    min-width: 200px;
+    min-height: 40px;
+}
+
+.DefBtn:hover {
+    background-color: white;
+    color: #303952;
+}
