@@ -17,16 +17,15 @@ export default function App() {
                 <VerticalLayout style={{
                     width: '200px'
                 }}>
-                    <Button>Кнопка 1</Button>
-                    <Button>Кнопка 2</Button>
+                    <Button Action={()=>{alert("Click 1");}}>Кнопка 1</Button>
+                    <Button Action={()=>{alert("Click 2");}}>Кнопка 2</Button>
                 </VerticalLayout>
+                <SwitchContainer Index={0}>
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                </SwitchContainer>
             </div>
         </div>
     )
-
-    /*
-<SwitchContainer Index={0}>
-                    
-                </SwitchContainer>
-    */
 }
